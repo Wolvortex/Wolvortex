@@ -13,7 +13,7 @@ class Life(Creativity):
     def current_projects(self):
         self.currently_learning = "PWA With React 📚"
         self.currently_working_on = "Automating Deveopment Process 🌱"
-        self.excited_for = "Internt of Things 🌎"
+        self.excited_for = "Internet of Things 🌎"
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
