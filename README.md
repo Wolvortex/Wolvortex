@@ -12,7 +12,7 @@ class Life(Creativity):
 
     def current_projects(self):
         self.currently_learning = "PWA With React 📚"
-        self.currently_working_on = "Automating Deveopment Process 🌱"
+        self.currently_working_on = "Automating Development Process 🌱"
         self.excited_for = "Internet of Things 🌎"
     
     def contact_me(self):
