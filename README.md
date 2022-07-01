@@ -18,9 +18,12 @@ class Life(Creativity):
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
-        self.facebook = <a href="https://www.google.com/" target="_blank">Google</a>
-
+        self.facebook = [Click Me](#facebook).
         
+        <a id="facebook" href="https://www.google.com/" target="_blank">Google</a>
+        
+        
+        self.facebook = <a href="https://www.google.com/" target="_blank">Google</a>
         self.facebook = [Click Me](https://www.facebook.com/MaXiMoSofficial/).
         
 if '__repo__' == '__helpful__':
