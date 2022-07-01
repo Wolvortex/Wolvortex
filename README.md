@@ -8,6 +8,7 @@ from life import Creativity
 class Life(Creativity):
     def __init_life__(self):
         self.current_job_title = "CEO"
+        self.current_specility = "Django Backend Developer"
         self.open_for_opportunity = True
 
     def current_projects(self):
