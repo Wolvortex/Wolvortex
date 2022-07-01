@@ -18,6 +18,8 @@ class Life(Creativity):
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
+        self.facebook = <a href="https://www.facebook.com/MaXiMoSofficial" target="blank"><img align="center" src="https://www.flaticon.com/free-icons/facebook" height="100" /></a>
+
         self.facebook = [Click Me] (https://www.facebook.com/MaXiMoSofficial)
  
 if '__repo__' == '__helpful__':
