@@ -18,7 +18,7 @@ class Life(Creativity):
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
-        self.facebook = "https://www.facebook.com/MaXiMoSofficial/"
+        self.facebook = [Omar Hatem](https://www.facebook.com/MaXiMoSofficial/)
  
 if '__repo__' == '__helpful__':
     star.it()
