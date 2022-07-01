@@ -18,7 +18,7 @@ class Life(Creativity):
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
-        self.facebook = <a href="https://www.facebook.com/MaXiMoSofficial" target="blank"><img align="center" src="https://www.flaticon.com/free-icons/facebook" height="100" /></a>
+        self.facebook = <a href="https://www.facebook.com/MaXiMoSofficial" target="blank"><img align="center" src="https://img.icons8.com/offices/344/facebook-circled.png" width="20" height="20" /></a>
 
         self.facebook = [Click Me] (https://www.facebook.com/MaXiMoSofficial)
  
