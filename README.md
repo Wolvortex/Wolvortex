@@ -26,6 +26,7 @@ class Life(Creativity):
             "Mobile": ["Flutter", "React Native"],  # Basic Understanding
             "Desktop": ["ElectronJS"]
         }
+        self.targeted_position = "The One Who Gets It Done" ✅
         self.open_for_opportunity = True
 
     def current_projects(self):
