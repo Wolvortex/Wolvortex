@@ -10,29 +10,53 @@ class Life(Creativity):
         self.current_job_title = "CEO"
         self.current_specility = "Django Backend Developer"
         self.years_of_experience = 12
-        self.fields_of_experience = {
-            "Backend": ["Django", "FastAPI", "Flask", "BlackSheep", "Sanic"],
-            "Frontend": ["ReactJS", "Next.js", "Tailwind CSS", "Bootstrap", "Semantic UI", "MUI"],
+
+        self.arsenal = {
+            "Backend": ["Django", "FastAPI", "Flask", "BlackSheep", "Sanic", "Tornado", "aiohttp"],
+            "Frontend": ["ReactJS", "Next.js", "PWA", "Tailwind CSS", "Bootstrap", "Semantic UI", "MUI"],
             "UI/UX": ["Figma", "Adobe XD"],
             "DevOps": [
-                "CI/CD", "GitHub Actions", "GitLab CI", "Jenkins", "Docker", "Kubernetes", 
-                "Helm", "Terraform", "Nginx", "Supervisor", "Prometheus", "Grafana", "Ansible"
+                "CI/CD", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Nginx", 
             ],
             "Infrastructure & Messaging": [
-                "RabbitMQ", "Redis", "Celery", "Apache Kafka", "ActiveMQ", 
-                "ZeroMQ", "Memcached", "Elasticsearch"
+                "RabbitMQ", "Redis", "Celery", "Apache Kafka",
+                "ZeroMQ", "Memcached", "Elasticsearch", "Supervisor",
             ],
             "Databases": ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
-            "Mobile": ["Flutter", "React Native"],  # Basic Understanding
-            "Desktop": ["ElectronJS"]
+            "Desktop": ["ElectronJS"],
+            "Cloud": ["AWS", "Linode", "Azure", "DigitalOcean", ]
+            "AI & Machine Learning": [
+                "TensorFlow", "PyTorch", "OpenCV", "Jupyter", "Pandas", "NumPy"
+            ]
+            "Web_Reverse_Engineering": [
+                "Burp Suite",
+                "Fiddler",
+                "Postman (advanced debugging)",
+                "Wireshark",
+                "Browser DevTools (Network/Storage inspection)",
+                "mitmproxy",
+                "Playwright/Selenium for dynamic analysis",
+                "JavaScript Deobfuscation (AST, source maps)",
+                "API Traffic Analysis & Replay"
+            ]
+            "Automation": ["Selenium", "Playwright", "Botasaurus"],
         }
+
+        self.arsenal_in_progress = {
+            "DevOps": [
+                "Jenkins", "Helm", "Prometheus", "Grafana", "Ansible"
+            ],
+            "Infrastructure & Messaging": [
+                "ActiveMQ",
+            ],
+        }
+
         self.targeted_position = "The One Who Gets It Done" ✅
         self.open_for_opportunity = True
 
     def current_projects(self):
-        self.currently_learning = "PWA With React 📚"
         self.currently_working_on = "Automating Development Process 🌱"
-        self.excited_for = "Internet of Things 🌎"
+        self.excited_for = "AIoT 🌎"
     
     def contact_me(self):
         self.email = "omar77atem@gmail.com"
