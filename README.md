@@ -10,6 +10,22 @@ class Life(Creativity):
         self.current_job_title = "CEO"
         self.current_specility = "Django Backend Developer"
         self.years_of_experience = 12
+        self.fields_of_experience = {
+            "Backend": ["Django", "FastAPI", "Flask", "BlackSheep", "Sanic"],
+            "Frontend": ["ReactJS", "Next.js", "Tailwind CSS", "Bootstrap", "Semantic UI", "MUI"],
+            "UI/UX": ["Figma", "Adobe XD"],
+            "DevOps": [
+                "CI/CD", "GitHub Actions", "GitLab CI", "Jenkins", "Docker", "Kubernetes", 
+                "Helm", "Terraform", "Nginx", "Supervisor", "Prometheus", "Grafana", "Ansible"
+            ],
+            "Infrastructure & Messaging": [
+                "RabbitMQ", "Redis", "Celery", "Apache Kafka", "ActiveMQ", 
+                "ZeroMQ", "Memcached", "Elasticsearch"
+            ],
+            "Databases": ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
+            "Mobile": ["Flutter", "React Native"],  # Basic Understanding
+            "Desktop": ["ElectronJS"]
+        }
         self.open_for_opportunity = True
 
     def current_projects(self):
