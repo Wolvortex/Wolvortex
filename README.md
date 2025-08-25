@@ -29,13 +29,9 @@ class Life(Creativity):
                 "TensorFlow", "PyTorch", "OpenCV", "Jupyter", "Pandas", "NumPy"
             ]
             "Web_Reverse_Engineering": [
-                "Burp Suite",
-                "Fiddler",
-                "Postman (advanced debugging)",
-                "Wireshark",
-                "Browser DevTools (Network/Storage inspection)",
-                "mitmproxy",
-                "Playwright/Selenium for dynamic analysis",
+                "Burp Suite", "Fiddler", "Postman (advanced debugging)",
+                "Wireshark", "Browser DevTools (Network/Storage inspection)",
+                "mitmproxy", "Playwright/Selenium for dynamic analysis",
                 "JavaScript Deobfuscation (AST, source maps)",
                 "API Traffic Analysis & Replay"
             ]
