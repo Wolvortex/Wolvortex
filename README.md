@@ -6,48 +6,43 @@
 from life import Creativity
 
 class Life(Creativity):
-    def __init_life__(self):
+    def __init__(self):
         self.current_job_title = "CEO"
-        self.current_specility = "Django Backend Developer"
+        self.current_specialty = "Django Backend Developer"
         self.years_of_experience = 12
 
         self.arsenal = {
-            "Backend": ["Django", "FastAPI", "Flask", "BlackSheep", "Sanic", "Tornado", "aiohttp"],
-            "Frontend": ["ReactJS", "Next.js", "PWA", "Tailwind CSS", "Bootstrap", "Semantic UI", "MUI"],
-            "UI/UX": ["Figma", "Adobe XD"],
-            "DevOps": [
-                "CI/CD", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Nginx", 
-            ],
-            "Infrastructure & Messaging": [
-                "RabbitMQ", "Redis", "Celery", "Apache Kafka",
-                "ZeroMQ", "Memcached", "Elasticsearch", "Supervisor",
-            ],
-            "Databases": ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
-            "Desktop": ["ElectronJS"],
-            "Cloud": ["Alwyzon", "AWS", "Linode", "Azure", "DigitalOcean", ]
-            "AI & Machine Learning": [
-                "TensorFlow", "PyTorch", "OpenCV", "Jupyter", "Pandas", "NumPy"
-            ]
-            "Web_Reverse_Engineering": [
+            "Backend": ("Django", "FastAPI", "Flask", "BlackSheep", "Sanic", "Tornado", "aiohttp"),
+            "DevOps": ("CI/CD", "GitHub Actions", "Docker", "Kubernetes", "Terraform", "Nginx"),
+            "Cloud": ("Alwyzon", "AWS", "Linode", "Azure", "DigitalOcean"),
+            "Infrastructure & Messaging": (
+                "RabbitMQ", "Redis", "Celery", "Apache Kafka", "ZeroMQ", 
+                "Memcached", "Elasticsearch", "Supervisor"
+            ),
+            "Automation": ("Selenium", "Playwright", "Botasaurus"),
+            "AI & Machine Learning": ("TensorFlow", "PyTorch", "OpenCV", "Jupyter", "Pandas", "NumPy"),
+            "Databases": ("PostgreSQL", "MySQL", "SQLite", "MongoDB"),
+            "Web Reverse Engineering": (
                 "Burp Suite", "Fiddler", "Postman (advanced debugging)",
                 "Wireshark", "Browser DevTools (Network/Storage inspection)",
                 "mitmproxy", "Playwright/Selenium for dynamic analysis",
                 "JavaScript Deobfuscation (AST, source maps)",
                 "API Traffic Analysis & Replay"
-            ]
-            "Automation": ["Selenium", "Playwright", "Botasaurus"],
+            ),
+            "Frontend": ("ReactJS", "Next.js", "PWA", "Tailwind CSS", "Bootstrap", "Semantic UI", "MUI"),
+            "UI/UX": ("Figma", "Adobe XD"),
+            "Desktop": ("ElectronJS",)
         }
 
         self.arsenal_in_progress = {
             "DevOps": [
-                "Jenkins", "Helm", "Prometheus", "Grafana", "Ansible"
+                "Jenkins", "Helm", "Prometheus",
+                "Grafana", "Ansible"
             ],
-            "Infrastructure & Messaging": [
-                "ActiveMQ",
-            ],
+            "Infrastructure & Messaging": ["ActiveMQ",],
         }
 
-        self.fields_of_experience = [
+        self.fields_of_experience = (
             "Finance & FinTech",
             "Social Media & Messaging Platforms",
             "E-Commerce",
@@ -57,20 +52,46 @@ class Life(Creativity):
             "Cybersecurity",
             "Automation & DevOps",
             "AI & Data Science"
-        ]
+        )
 
-        self.targeted_position = "The One Who Gets It Done" ✅
+        self.targeted_position = "The One Who Gets It Done ✅"
         self.open_for_opportunity = True
 
+    @property
     def current_projects(self):
-        self.currently_working_on = "Automating Development Process 🌱"
-        self.latest_finished_project = "Fully Automated Bulk Accounts Management & Top-Trending For X(Twitter).com"
-        self.excited_for = "AIoT 🌎"
+        return {
+            "building": "Automating Development Process 🌱",
+            "finished": "Fully Automated Bulk Accounts Management & Top-Trending For X(Twitter).com",
+            "excited_for": "AIoT 🌎"
+        }
     
+    @property
     def contact_me(self):
-        self.phone_number = "+02 01018436995"
-        self.linked_in = "https://www.linkedin.com/in/wolvortex/"
-        self.email = "omar77atem@gmail.com"
+        return {
+            "linkedin": "https://www.linkedin.com/in/wolvortex/",  # preferable
+            "email": "omar77atem@gmail.com"
+        }
+
+    def __repr__(self):
+        return (
+            f"<Life: {self.current_job_title} | {self.current_specialty} | "
+            f"{self.years_of_experience}+ yrs | "
+            f"Leadership & hands-on expertise: Backend, DevOps, Cloud, AI/ML, Automation | "
+            f"Domains: {', '.join(self.fields_of_experience[:3])}... | "
+            f"Target: {self.targeted_position}>"
+        )
+
+    @property
+    def summary(self):
+        return (
+            "Tech leader with 12+ years’ experience as CEO & Django Backend Developer. "
+            "Hands-on in Backend, DevOps, Cloud, Automation, and AI/ML, with proven impact in Finance, "
+            "Social Media, and E-Commerce. Recognized as 'The One Who Gets It Done ✅'."
+        )
+
+    @property
+    def tagline(self):
+        return "From idea to scale → automated, secured, and delivered ✅"
 
 if '__repo__' == '__helpful__':
     star.it()
