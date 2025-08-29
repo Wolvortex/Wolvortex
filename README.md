@@ -24,7 +24,7 @@ class Life(Creativity):
             ],
             "Databases": ["PostgreSQL", "MySQL", "SQLite", "MongoDB"],
             "Desktop": ["ElectronJS"],
-            "Cloud": ["AWS", "Linode", "Azure", "DigitalOcean", ]
+            "Cloud": ["Alwyzon", "AWS", "Linode", "Azure", "DigitalOcean", ]
             "AI & Machine Learning": [
                 "TensorFlow", "PyTorch", "OpenCV", "Jupyter", "Pandas", "NumPy"
             ]
@@ -46,6 +46,18 @@ class Life(Creativity):
                 "ActiveMQ",
             ],
         }
+
+        self.fields_of_experience = [
+            "Finance & FinTech",
+            "Social Media & Messaging Platforms",
+            "E-Commerce",
+            "Healthcare & MedTech",
+            "E-Learning",
+            "Cloud Infrastructure & SaaS",
+            "Cybersecurity",
+            "Automation & DevOps",
+            "AI & Data Science"
+        ]
 
         self.targeted_position = "The One Who Gets It Done" ✅
         self.open_for_opportunity = True
