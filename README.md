@@ -84,7 +84,7 @@ class Life(Creativity):
     @property
     def summary(self):
         return (
-            "Tech leader with 12+ years’ experience as CEO & Django Backend Developer. "
+            "Tech Lead & Architect with 12+ years’ experience as CEO & Django Backend Developer. "
             "Hands-on in Backend, DevOps, Cloud, Automation, and AI/ML, with proven impact in Finance, "
             "Social Media, and E-Commerce. Recognized as 'The One Who Gets It Done ✅'."
         )
