@@ -84,12 +84,13 @@ class Life(Creativity):
     @property
     def summary(self):
         return (
-            "CEO, Tech Lead & Architect with 12+ years of experience building high-performance systems
-            powered by Automation, AI/ML, Cloud, and Cybersecurity. Hands-on Django Backend Developer
-            and DevOps expert, blending executive leadership with deep technical expertise. Proven
-            record of driving impact in Banking, Finance, Social Media, and E-Commerce by transforming complex challenges
-            into secure, automated, and future-proof solutions. Recognized as 'The One Who Gets It Done ✅'
-            — equally effective at setting the vision, architecting the solution, and leading cross-functional teams to execution."
+            """CEO, Tech Lead & Architect with 12+ years of experience building high-performance systems 
+            leveraging Automation, AI/ML, Cloud, and Cybersecurity. Hands-on Django Backend Developer and 
+            DevOps expert, combining executive leadership with deep technical expertise. Proven track record 
+            driving impact in Banking, Finance, Social Media, and E-Commerce by turning complex challenges 
+            into secure, automated, and future-proof solutions. Recognized as 'The One Who Gets It Done ✅' 
+            — equally effective at setting the vision, architecting solutions, and leading cross-functional 
+            teams to execution."""
         )
 
     @property
