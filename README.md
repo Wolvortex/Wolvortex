@@ -64,9 +64,12 @@ class Life(Creativity):
 
     def current_projects(self):
         self.currently_working_on = "Automating Development Process 🌱"
+        self.latest_finished_project = "Fully Automated Bulk Accounts Management & Top-Trending For X(Twitter).com"
         self.excited_for = "AIoT 🌎"
     
     def contact_me(self):
+        self.phone_number = "+02 01018436995"
+        self.linked_in = "https://www.linkedin.com/in/wolvortex/"
         self.email = "omar77atem@gmail.com"
 
 if '__repo__' == '__helpful__':
