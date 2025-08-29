@@ -103,7 +103,7 @@ if '__repo__' == '__helpful__':
 ```
 
 <h3 align="left">Social Contact:</h3>
-<p align="center"> <a href="https://www.facebook.com/MaXiMoSofficial" target="_blank"><img align="center" src="https://img.icons8.com/offices/344/facebook-circled.png" width="40" height="40" /></a> <a href="https://www.linkedin.com/in/wolvortex/" target="_blank"><img align="center" src="https://img.icons8.com/office/40/000000/linkedin-circled--v2.png" width="40" height="40" /></a>
+<p align="center"> <a href="https://www.linkedin.com/in/wolvortex/" target="_blank"><img align="center" src="https://img.icons8.com/office/40/000000/linkedin-circled--v2.png" width="40" height="40" /></a>
 </p>
 
 <h3 align="left">Languages and Frameworks and Tools:</h3>
